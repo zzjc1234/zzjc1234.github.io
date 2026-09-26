@@ -60,6 +60,7 @@ h3 a>span:first-child{min-width:0}
 .link-arrow{color:var(--blue);font-family:var(--mono);flex-shrink:0}
 .paper p{color:var(--muted);margin-top:12px}
 .paper .paper-authors{font-size:.875rem;margin-top:8px}
+.paper .paper-note{font-size:.75rem;margin-top:4px}
 .author-self{color:var(--blue);font-weight:700;text-decoration:underline;text-underline-offset:3px}
 .paper-links{display:flex;flex-wrap:wrap;gap:8px 16px;font-family:var(--mono);font-size:.875rem;color:var(--cyan);margin-top:16px}
 .paper-links a:hover{text-decoration:underline;text-underline-offset:4px}

@@ -18,4 +18,4 @@ The previous Hexo archive URLs are preserved. The homepage uses its own styleshe
 
 Original static implementation, with the [Tokyo Night](https://github.com/folke/tokyonight.nvim) palette and editorial/terminal inspiration from [MultiTerm](https://github.com/stelcodes/multiterm-astro) and [AstroPaper](https://github.com/satnaing/astro-paper). No template source code was copied.
 
-Research and project descriptions are based on the September 2026 Chinese résumé. PROTEUS is updated to NeurIPS 2026 Poster per the author's confirmation. The résumé PDF is not published; the homepage contains the relevant academic information and email contact.
+Research and project descriptions are based on the September 2026 Chinese résumé. PROTEUS's NeurIPS 2026 title, six-author list, and Poster status follow the author's confirmation; the linked arXiv preprint has older metadata. The résumé PDF is not published; the homepage contains the relevant academic information and email contact.
