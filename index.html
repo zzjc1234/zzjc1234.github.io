@@ -38,7 +38,7 @@
     <main id="main">
       <section id="about" class="intro">
         <div class="section-kicker mono"><span class="accent">01 /</span> about me</div>
-        <h1>Making AI agents<br><span>safer.</span> Systems <span>faster.</span></h1>
+        <h1><span>AI Agent Security</span><br>&amp; <span>LLM Infrastructure</span></h1>
         <p class="lead">I work on <strong>AI agent security</strong> and <strong>LLM infrastructure</strong> — from adversarial evaluation and multi-agent defense to the systems that power large language models.</p>
         <p>I am in a joint training program between the School of Computer Science at Shanghai Jiao Tong University and the <a href="https://www.sii.edu.cn/">Shanghai Innovation Institute</a>, and am a member of <a href="https://ibdsys.sjtu.edu.cn/">IBDS Lab</a> at SJTU.</p>
         <p>I plan to explore embodied intelligence.</p>
@@ -60,6 +60,12 @@
           <div class="paper-bottom"><span class="mono">92.5% attack recovery</span><span>~71% less added defense latency than majority voting</span></div>
         </article>
         <article class="paper">
+          <div class="paper-meta mono"><span class="badge">ICML 2026</span><span>Co-author</span></div>
+          <h3><a href="https://arxiv.org/abs/2601.21714">E-mem: Multi-Agent Based Episodic Context Reconstruction for LLM Agent Memory ↗</a></h3>
+          <p>A multi-agent memory framework that preserves uncompressed episodic contexts. Assistant agents reason over relevant memory segments and return context-aware evidence to a central planning agent, supporting long-horizon reasoning.</p>
+          <div class="paper-bottom"><a class="mono" href="https://github.com/SJTU-iBDS-Lab/E-mem">Code ↗</a><span>Agent memory · Episodic context reconstruction</span></div>
+        </article>
+        <article class="paper">
           <div class="paper-meta mono"><span class="badge neutral">Computer Networks · 2026</span><span>Third author</span></div>
           <h3>A Stochastic Learning Algorithm for Multi-agent Game in Mobile Network: A Cross-Silo Federated Learning Perspective</h3>
           <p>Stochastic multi-agent learning for cross-silo federated learning under incomplete information and non-convex games. Contributed to algorithm design and independently implemented large-scale simulations.</p>
@@ -68,7 +74,8 @@
       <section id="projects">
         <div class="section-heading"><h2><span class="section-number mono">03 /</span> Selected projects</h2></div>
         <div class="project-grid">
-          <article class="project"><span class="project-type mono">SECURITY / RESEARCH</span><h3><a href="https://arxiv.org/abs/2605.11891">PROTEUS <span aria-hidden="true">↗</span></a></h3><p>A self-evolving red team for agent skill ecosystems. Built the feedback-driven attack evolution system and large-scale evaluation pipeline to test agent defenses.</p><p>Code is not yet public due to project constraints. An open-source release is planned.</p><div class="project-tags mono">Agent security · Red teaming · NeurIPS 2026</div></article>
+          <article class="project"><span class="project-type mono">SECURITY / RESEARCH</span><h3><a href="https://arxiv.org/abs/2605.11891">PROTEUS <span aria-hidden="true">↗</span></a></h3><p>A self-evolving red team for agent skill ecosystems. Built the feedback-driven attack evolution system and large-scale evaluation pipeline to test agent defenses.</p><div class="project-tags mono">Agent security · Red teaming · NeurIPS 2026</div></article>
+          <article class="project"><span class="project-type mono">SECURITY / RESEARCH</span><h3>Software vulnerability discovery</h3><p>Code is not yet public due to project constraints. An open-source release is planned.</p><div class="project-tags mono">Software security · Vulnerability discovery</div></article>
           <article class="project"><span class="project-type mono">SYSTEMS / RESEARCH</span><h3>KV cache optimization</h3><p>Compression and scheduling for long-context and RAG inference. Exploring pruning, quantization, and merging with planned LMCache integration under a CCF–Ant research fund project.</p><div class="project-tags mono">LLM serving · LMCache · KV cache</div></article>
           <article class="project"><span class="project-type mono">INFRASTRUCTURE / OPEN SOURCE</span><h3><a href="https://github.com/joint-online-judge/joj3">Joint Online Judge <span aria-hidden="true">↗</span></a></h3><p>Core development of SJTU Joint Institute’s online judge. Implemented repository checks, code execution, and grading; maintained Docker images and production deployment.</p><div class="project-tags mono">Go · Gitea Actions · Docker</div></article>
           <article class="project"><span class="project-type mono">AI / FULL STACK</span><h3>Personalized RAG service</h3><p>A full-stack LLM service combining distributed knowledge and computing resources. Built the backend, retrieval pipeline, frontend, and storage deployment for an SJTU student innovation project.</p><div class="project-tags mono">Django · LangChain · FAISS · Vue</div></article>
