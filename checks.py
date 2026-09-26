@@ -39,6 +39,7 @@ def check():
                 assert url.fragment in page.ids, f"Missing section: {link}"
     assert "NeurIPS 2026 · Poster" in html
     assert "EMNLP 2026 · Findings" in html
+    assert "ICML 2026 · Poster" in html
     assert "First author" in html and "Co-first author" in html
     assert "Third author" not in html and "Co-author" not in html
     assert "John Doe" not in html and "example.com" not in html
